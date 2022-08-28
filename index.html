@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ancients">
+            <div class="firstRow">
+                <div class="azathoth">
+                    <img src="assets/Ancients/Azathoth.png">
+                </div>
+                <div class="cthulthu">
+                    <img src="assets/Ancients/Cthulthu.png">
+                </div>
+            </div>
+            <div class="secondRow">
+                <div class="logSothoth">
+                    <img src="assets/Ancients/IogSothoth.png">
+                </div>
+                <div class="shubNiggurath">
+                    <img src="assets/Ancients/ShubNiggurath.png">
+                </div>
+            </div>
+        </div>
+        <div class="level">
+            <button class="veryEasy">Very Easy</button>
+            <button class="easy">Easy</button>
+            <button class="normal">Normal</button>
+            <button class="hard">Hard</button>
+            <button class="veryHard">Very hard</button>
+        </div>
+        <div class="cards">
+            <div class="stage">
+                <div class="firstStage">
+                    <p id="firstStage">First Stage</p>
+                    <div class="colors">
+                        <div class="blue" id="blueF">0</div>
+                        <div class="brown" id="brownF">0</div>
+                        <div class="green" id="greenF">0</div>
+                    </div>
+                </div>
+                <div class="secondStage">
+                    <p id="secondStage">Second Stage</p>
+                    <div class="colors">
+                        <div class="blue" id="blueS">0</div>
+                        <div class="brown" id="brownS">0</div>
+                        <div class="green" id="greenS">0</div>
+                    </div>
+                </div>
+                <div class="thirdStage">
+                    <p id="thirdStage">Third Stage</p>
+                    <div class="colors">
+                        <div class="blue" id="blueT">0</div>
+                        <div class="brown" id="brownT">0</div>
+                        <div class="green" id="greenT">0</div>
+                    </div>
+                </div>
+            </div>
+            <button class="shuffle">Shuffle the deck</button>
+            <div class="randomCards hidden">
+                <div>
+                    <img src="assets/mythicCardBackground.png">
+                </div>
+                <div class="randomCard" id="randomCard">
+                </div>             
+            </div>
+            <div class="result hidden">Finish! Play again!</div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
